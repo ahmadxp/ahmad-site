@@ -1,7 +1,7 @@
 title: Ahmadxp
 description: My personal web using lume deno and tailwind css.
-image: =image
-url: =url
+image: "/img/thumb.jpg"
+url: https://ahmad.0x13.se
 keywords:
   - web
   - personal web
