@@ -5,6 +5,7 @@ import sitemap from "lume/plugins/sitemap.ts";
 import tailwindcss from "lume/plugins/tailwindcss.ts";
 import postcss from "lume/plugins/postcss.ts";
 import feed from "lume/plugins/feed.ts";
+import minifyHTML from "lume/plugins/minify_html.ts";
 
 const site = lume({
     src: "./src",
@@ -34,6 +35,9 @@ site.use(feed({
         title: "=title",
         content: "$.post-body",
     },
+}));
+site.use(minifyHTML({
+    extensions: [".html", ".css", ".js"],
 }));
 
 export default site;
