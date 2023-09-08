@@ -8,6 +8,7 @@ import feed from "lume/plugins/feed.ts";
 
 const site = lume({
     src: "./src",
+    location: new URL("https://ahmad.0x13.se/"),
     components: {
         variable: "components",
     },
