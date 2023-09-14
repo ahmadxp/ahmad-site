@@ -21,7 +21,22 @@ site.copy("static", ".");
 site.use(code_highlight());
 site.use(date());
 site.use(sitemap());
-site.use(tailwindcss());
+site.use(tailwindcss({
+    theme: {
+        extend: {
+            colors: {
+                'black': '#222222',
+                'grey': '#434242',
+                'whitebg': '#F3EFE0',
+                'white': '#F9F5EB',
+                'seablue': '#22A39F',
+            },
+            fontFamily: {
+                'sans': ['Poppins', 'sans-serif'],
+            },
+        },
+    },
+}));
 site.use(postcss());
 site.use(feed({
     output: ["/feed.json", "/feed.xml"],
