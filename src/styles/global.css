@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .card {
+        @apply max-w-sm md:max-w-2xl mx-auto;
+    }
+}

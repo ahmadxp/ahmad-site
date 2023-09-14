@@ -22,11 +22,11 @@ site.use(code_highlight());
 site.use(date());
 site.use(sitemap());
 site.use(tailwindcss({
-    theme: {
-        extend: {
+    options: {
+        theme: {
             colors: {
                 'black': '#222222',
-                'grey': '#434242',
+                'gray': '#434242',
                 'whitebg': '#F3EFE0',
                 'white': '#F9F5EB',
                 'seablue': '#22A39F',
