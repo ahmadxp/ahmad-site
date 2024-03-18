@@ -21,7 +21,7 @@ To run this on **localhost** type `deno task lume --serve` or `deno task serve` 
 
 ### Support
 [![Lume](https://img.shields.io/badge/Support%20Me-%23f43f5e?style=for-the-badge&logo=ko-fi&logoColor=white
-)](https://ko-fi/ahmadfarhan)
+)](https://ko-fi.com/ahmadfarhan)
 
 ## Build
 - Made and build with [Lume Deno](https://lume.land/) and [Tailwind CSS](https://tailwindcss.com).
